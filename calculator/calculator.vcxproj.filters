@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{bce99255-9f1f-41f7-98ce-1cf2702b3d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1a9908a3-7fd9-481c-b9b6-b298605b203e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\core">
+      <UniqueIdentifier>{e775f16c-23a8-4ddf-b938-27a9994ca568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\backends">
+      <UniqueIdentifier>{b4db42b0-238c-4d09-939e-b9097cf4825f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx12.cpp">
+      <Filter>imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\core\imgui.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\core\imgui_demo.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\core\imgui_draw.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\core\imgui_tables.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\core\imgui_widgets.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgui\backends\imgui_impl_win32.h">
+      <Filter>imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx12.h">
+      <Filter>imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\core\imconfig.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\core\imgui.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\core\imgui_internal.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
