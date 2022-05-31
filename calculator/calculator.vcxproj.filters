@@ -39,6 +39,9 @@
     <ClCompile Include="..\imgui\core\imgui_widgets.cpp">
       <Filter>imgui\core</Filter>
     </ClCompile>
+    <ClCompile Include="Calculator_Application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\imgui\backends\imgui_impl_win32.h">
@@ -64,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="..\imgui\imstb_truetype.h">
       <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator_Application.h">
+      <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

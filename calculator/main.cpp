@@ -13,6 +13,8 @@
 #include <dxgi1_4.h>
 #include <tchar.h>
 
+#include "Calculator_Application.h"
+
 #ifdef _DEBUG
 #define DX12_ENABLE_DEBUG_LAYER
 #endif
@@ -188,6 +190,10 @@ int main(int, char**)
                 show_another_window = false;
             ImGui::End();
         }
+
+        // MY CALCULATOR WINDOW
+
+        Calculator_Application::Render_CalculatorUI();
 
         // Rendering
         ImGui::Render();
