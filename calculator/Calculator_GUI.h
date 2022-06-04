@@ -1,5 +1,5 @@
 #pragma once
 
-namespace Calculator_Application {
+namespace Calculator_GUI {
     void Render_CalculatorUI();
 }
